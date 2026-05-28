@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Geometry Dash Clone</title>
+    <style>
+        body {
+            margin: 0;
+            background: #111;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: sans-serif;
+            color: white;
+            overflow: hidden;
+        }
+
+        canvas {
+            background: #18233c;
+            border: 3px solid #00ffff;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+        }
+
+        p {
+            margin-top: 15px;
+            color: #888;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="gameCanvas" width="800" height="400"></canvas>
+    <p>Press **SPACE**, **UP ARROW**, or **CLICK** to jump.</p>
+    <script src="gameboy.js"></script>
+</body>
+
+</html>
